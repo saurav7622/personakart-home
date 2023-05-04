@@ -1,0 +1,118 @@
+.nimmu-content-area {
+  padding: 0 45px;
+  min-height: 611px;
+}
+
+.nimmu-trafic-area {
+  margin-top: 30px;
+  position: relative;
+}
+
+.nimmu-accordion .card .card-header,
+.nimmu-accordion .card {
+  border: none;
+}
+
+.nimmu-accordion .card:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.nimmu-accordion .card .card-header {
+  padding: 0px;
+}
+
+.nimmu-accordion .card .card-header .btn-link {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-radius: 0;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.table-responsive table thead tr th {
+  font-size: 15px;
+  padding: 0px 20px 10px;
+  text-align: left;
+  font-weight: 700;
+  color: #2a2a2d;
+  line-height: 20px;
+  border-bottom: none;
+}
+
+.table-responsive .table.table-striped tbody tr:nth-child(odd) {
+  background: #fafafe !important;
+}
+
+.table-responsive table tbody tr td {
+  height: 60px;
+  line-height: 60px;
+  color: #676b79 !important;
+  padding: 0px 20px !important;
+  font-size: 14px !important;
+  border-bottom: none !important;
+}
+
+.nimmu-basic-table tr td,
+.nimmu-basic-table tr th {
+  vertical-align: middle;
+}
+
+.nimmu-basic-table .img {
+  width: 40px;
+  height: 40px;
+}
+
+.nimmu-basic-table .img img {
+  border-radius: 50px;
+}
+
+.nimmu-basic-table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fafafe;
+}
+
+.nimmu-basic-table thead tr th {
+  font-size: 15px;
+  padding: 0px 20px 10px;
+  text-align: left;
+  font-weight: 700;
+  color: #2a2a2d;
+  line-height: 20px;
+  border-bottom: none;
+}
+
+.nimmu-basic-table tbody tr td {
+  height: 60px;
+  color: #676b79;
+  padding: 0px 20px;
+  font-size: 14px;
+  border-bottom: none;
+}
+.nimmu-bordered-table tr th {
+  padding: 20px !important;
+}
+.default-card {
+  position: relative;
+  min-height: 25rem;
+
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 9px;
+  padding: 25px 30px;
+  transition: all 0.4s ease-in-out 0s;
+  box-shadow: 0px 14px 60px rgba(0, 0, 0, 0.06);
+}
+
+.card-header button {
+  text-align: left;
+  display: block;
+}
+
+.insights {
+  padding: 1rem;
+  background-color: #ffffff;
+  margin: 2rem auto;
+  width: 90%;
+  min-height: 25rem;
+  max-width: 95%;
+}

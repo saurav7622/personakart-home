@@ -1,0 +1,17 @@
+.wrapper {
+  background-color: #edeef4;
+}
+
+.nimmu-top-header {
+  padding: 25px 45px;
+  margin-bottom: 43px;
+  border-bottom: 1px solid #fff;
+}
+
+.nimmu-content-area {
+  padding: 0 42px;
+  min-height: 611px;
+}
+.nimmu-trafic-area {
+  position: relative;
+}

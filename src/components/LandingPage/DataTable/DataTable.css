@@ -1,0 +1,13 @@
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0;
+  border-radius: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  border: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: transparent;
+}

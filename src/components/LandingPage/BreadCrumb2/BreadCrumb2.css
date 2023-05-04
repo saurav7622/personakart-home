@@ -1,0 +1,38 @@
+.nimmu-breadcrumb {
+  position: relative;
+  padding: 0 15px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: -4.2rem;
+}
+
+.nimmu-breadcrumb ul li {
+  font-size: 26px;
+  line-height: 33px;
+  margin-bottom: 30px;
+  position: relative;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 10px;
+  margin: 1px;
+}
+
+.nimmu-breadcrumb ul li:not(:last-child) {
+  margin-right: 4px;
+}
+
+.nimmu-breadcrumb ul li:not(:first-child) {
+  padding-left: 15px;
+}
+
+.nimmu-breadcrumb ul li:not(:first-child)::after {
+  position: absolute;
+  content: ">";
+  font-size: 26px;
+  color: #424b56;
+  left: -5%;
+  top: 50%;
+  transform: translateY(-50%);
+}

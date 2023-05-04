@@ -1,0 +1,107 @@
+.nimmu-basic-table tr td,
+.nimmu-basic-table tr th {
+  vertical-align: middle;
+}
+
+.nimmu-basic-table .img {
+  width: 40px;
+  height: 40px;
+}
+
+.nimmu-basic-table .img img {
+  border-radius: 50px;
+}
+
+.nimmu-basic-table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fafafe;
+}
+
+.nimmu-basic-table thead tr th {
+  font-size: 15px;
+  padding: 0px 20px 10px;
+  text-align: left;
+  font-weight: 700;
+  color: #2a2a2d;
+  line-height: 20px;
+  border-bottom: none;
+}
+
+.nimmu-basic-table tbody tr td {
+  height: 60px;
+  color: #676b79;
+  padding: 0px 20px;
+  font-size: 14px;
+  border-bottom: none;
+}
+
+.status-badge {
+  height: 25px;
+  font-size: 12px;
+  padding: 0px 20px;
+  min-width: 90px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.active-status {
+  background: #4bda5e;
+}
+
+.inactive-status {
+  background: #f46e6e;
+}
+
+.pending-status {
+  background: #ffedbc;
+  color: #dfa100 !important;
+}
+
+.nimmu-bordered-table tr th {
+  padding: 20px !important;
+}
+
+.nimmu-table-dark {
+  color: #fff;
+  background-color: #424c5c;
+}
+
+.nimmu-table-dark thead tr th {
+  color: #fff !important;
+}
+
+.nimmu-table-dark thead tr th,
+.nimmu-table-dark tbody tr th,
+.nimmu-table-dark tbody tr td {
+  border: 1px solid #505a6b;
+  color: #98a6ad;
+}
+
+.nimmu-table-hover tbody tr:hover {
+  background-color: #fafafe;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0;
+  border-radius: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  border: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: transparent;
+}
+.table-container {
+  position: relative;
+  top: -1rem;
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}

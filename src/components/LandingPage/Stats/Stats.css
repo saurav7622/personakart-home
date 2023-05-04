@@ -1,0 +1,139 @@
+.ecommerce-analytic-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 2%;
+  margin-right: 0;
+}
+
+.ecommerce-analytic-area .single-card {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 30px;
+  background: #fff;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-sales-analytic,
+.ecommerce-analytic-area .single-card .ecommerce-order-analytic,
+.ecommerce-analytic-area .single-card .ecommerce-revenue-analytic,
+.ecommerce-analytic-area .single-card .ecommerce-visitor-analytic {
+  position: relative;
+  padding-left: 50px;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-sales-analytic::after,
+.ecommerce-analytic-area .single-card .ecommerce-order-analytic::after,
+.ecommerce-analytic-area .single-card .ecommerce-revenue-analytic::after,
+.ecommerce-analytic-area .single-card .ecommerce-visitor-analytic::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-sales-analytic::after {
+  background: #355a24;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-order-analytic::after {
+  background: #e45d50;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-revenue-analytic::after {
+  background: #384883;
+}
+
+.ecommerce-analytic-area .single-card .ecommerce-visitor-analytic::after {
+  background: #fdc04e;
+}
+
+#sitevisitor {
+  height: 365px;
+  width: 100%;
+}
+.card-header {
+  margin-bottom: 30px;
+}
+.sales-social li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6c7a8b;
+  padding: 26px 0;
+  border-bottom: 1px solid #f5f4f9;
+  font-size: 22px;
+}
+.sales-social li.title {
+  font-weight: 700;
+  border-top: 1px solid #f5f4f9;
+}
+.sales-social li span img {
+  margin-right: 8px;
+}
+
+table.table.dttable thead tr th,
+table.table.dttable tbody tr td {
+  padding: 15px 0 !important;
+  border-bottom: 1px solid #f1f1f5 !important;
+  text-align: center;
+}
+table.table.dttable tbody tr:last-child td {
+  border-bottom: none !important;
+}
+table.table.dttable thead tr th {
+  padding-top: 0 !important;
+}
+.dttable .badge {
+  display: inline-block;
+  border-radius: 2px;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0;
+  font-size: 14px;
+}
+.dttable .badge-success {
+  background: rgba(84, 180, 27, 0.3);
+  color: #54b41b;
+}
+.dttable .badge-warning {
+  background: rgba(255, 206, 55, 0.3);
+  color: #ffce30;
+}
+.dttable .badge-danger {
+  background: rgba(255, 83, 74, 0.3);
+  color: #ff534a;
+}
+.dataTables_info {
+  display: none;
+}
+table.dataTable.no-footer {
+  border-bottom: none !important;
+}
+.recent-order-and-revenue-area {
+  margin-top: 30px;
+}
+
+.recent-order-and-revenue-area .revenue-card {
+  height: 545px;
+}
+
+p {
+  position: relative;
+  font-weight: 400;
+  font-size: 13px;
+  left: -20%;
+}
+
+h3 {
+  position: relative;
+  font-weight: 400;
+  font-size: 20px;
+  left: -20%;
+}

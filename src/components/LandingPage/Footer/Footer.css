@@ -1,0 +1,49 @@
+.nimmu-footer {
+  background: #fff;
+  padding: 30px 45px;
+  margin-top: 0;
+}
+
+.nimmu-footer .nimmu-ftr-btn {
+  display: inline-block;
+  padding: 6px 25px;
+  border-radius: 3px;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out 0s;
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.nimmu-footer .nimmu-ftr-btn:hover {
+  background: transparent !important;
+}
+
+.nimmu-footer .nimmu-ftr-btn.nimmu-btn-info {
+  background: #3c54db;
+  border: 2px solid #3c54db;
+  margin-right: 15px;
+}
+
+.nimmu-footer .nimmu-ftr-btn.nimmu-btn-info:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.nimmu-footer .nimmu-ftr-btn.nimmu-btn-success {
+  background: #02ae14;
+  border: 2px solid #02ae14;
+}
+
+.nimmu-footer .nimmu-ftr-btn.nimmu-btn-success:hover {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.nimmu-footer p {
+  font-size: 14px;
+  color: #202020;
+}
+
+.nimmu-footer a {
+  text-decoration: none;
+}
